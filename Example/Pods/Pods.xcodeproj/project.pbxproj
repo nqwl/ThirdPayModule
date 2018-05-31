@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00CABD49E7A42F5CAD5C2AAED8ECEF54 /* GGWXApiResponseHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD98CE2DD227917A987C38702A2CE05 /* GGWXApiResponseHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1A0510B286670A0C535AAF3AC575A087 /* GGWXApiRequestHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F5547A108836EBDEB7DEB80B6327E /* GGWXApiRequestHandle.m */; };
-		2617BC671FA24EF8FD45B9D6F398FDAB /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D7007CE444941DED462D9FF378B9EE /* WXApiManager.m */; };
-		53CC647C5578B71E5AD41FC96A49818C /* GGWXApiRequestHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = DF12CD7454D9EA37E2DE75527FB50B3D /* GGWXApiRequestHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0929D17AD2B1C01FD03F798D992FE719 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3560F4E30F9D1A5550CBA42DEB2E6FA2 /* MapKit.framework */; };
+		1AB751D4A544047DCB820542AE8D236D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C4A1B1F59708A850F3AC247315670B /* UIKit.framework */; };
+		26F4570E5C68FE798BAAD2A21B784470 /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A761C22717C067AC091DB252B11AC9CB /* WXApiManager.m */; };
+		3F01900B8CAB7CB4C7A96016E439AFE1 /* WXApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C19E50E3262453FA37DA12DA9691E6 /* WXApiManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D2BDAD2E8B1AD9F5FE588D45E39E712 /* ThirdPayModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2533158A3F5F2AD9416772FDAC0D1D46 /* ThirdPayModule-dummy.m */; };
 		57A71C6FD4FC9C9AFFD54F4588BF59BA /* Pods-ThirdPayModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9596BAE1F2E0DCB5A93BF76BC3731A50 /* Pods-ThirdPayModule_Tests-dummy.m */; };
-		63FE7F2DFBE527C74FD871EBF132699C /* GGWXApiResponseHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6048195A1369026E4F3E7CCCA17DBE08 /* GGWXApiResponseHandle.m */; };
-		8822ED921795DE3B1D28480CFD013464 /* ThirdPayModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C551EB563F6D3D8EB9B36574BEFD6A /* ThirdPayModule-dummy.m */; };
-		B4F4D6899DACEE6E4F15BC91CCBF920C /* WXApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F6887A6C558FE747E5759D6629B252 /* WXApiManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EEEC89F5796757F86F89C47F7E95516F /* Pods-ThirdPayModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B3A599318C5453EC9838061B1042C /* Pods-ThirdPayModule_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -36,50 +34,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00EDE8747A3BE68673B60253AAD490E9 /* ThirdPayModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThirdPayModule-prefix.pch"; sourceTree = "<group>"; };
 		150621E7A5E18287E98916E5EE09CF61 /* Pods-ThirdPayModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdPayModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		19C551EB563F6D3D8EB9B36574BEFD6A /* ThirdPayModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThirdPayModule-dummy.m"; sourceTree = "<group>"; };
 		2020C87D797F5606E0994E3B91DA4706 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WechatSDK1.8.2/WechatAuthSDK.h; sourceTree = "<group>"; };
+		2533158A3F5F2AD9416772FDAC0D1D46 /* ThirdPayModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThirdPayModule-dummy.m"; sourceTree = "<group>"; };
 		2695084A4EFED769123C17412FAA054C /* Pods-ThirdPayModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdPayModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		32777D3BDDCE21DBD5AB570CE1C5C089 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3560F4E30F9D1A5550CBA42DEB2E6FA2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		36E983344BC48AA24F24B325E48C16FA /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WechatSDK1.8.2/WXApiObject.h; sourceTree = "<group>"; };
 		3F5317CE6C340092F16F71691B7C6FB0 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WechatSDK1.8.2/WXApi.h; sourceTree = "<group>"; };
+		404144B38DF109A1623916A6B97297D5 /* ThirdPayModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ThirdPayModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		51FC9EC03AA683F49D6547C871518683 /* Pods-ThirdPayModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThirdPayModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		529F4032F8A4B4139994F2F9008997B2 /* ThirdPayModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ThirdPayModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5328FF64CC8983A0FC0B382C90390D5E /* libPods-ThirdPayModule_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ThirdPayModule_Example.a"; path = "libPods-ThirdPayModule_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		591D76EADFF9687DFE20EE80C7A28E97 /* Pods-ThirdPayModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThirdPayModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		5BD98CE2DD227917A987C38702A2CE05 /* GGWXApiResponseHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGWXApiResponseHandle.h; path = ThirdPayModule/Classes/GGWXApiResponseHandle.h; sourceTree = "<group>"; };
-		6048195A1369026E4F3E7CCCA17DBE08 /* GGWXApiResponseHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGWXApiResponseHandle.m; path = ThirdPayModule/Classes/GGWXApiResponseHandle.m; sourceTree = "<group>"; };
 		6157AB26557A35D7971A081D380FBC61 /* Pods-ThirdPayModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThirdPayModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		69935C45177D848F3DDED5505B1E7D4E /* ThirdPayModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThirdPayModule-prefix.pch"; sourceTree = "<group>"; };
-		6F62FF19F156E72F500F51430603D1D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		77EF4AC2913EA009BA3216DE1B429899 /* ThirdPayModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThirdPayModule.xcconfig; sourceTree = "<group>"; };
-		7D1F5547A108836EBDEB7DEB80B6327E /* GGWXApiRequestHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGWXApiRequestHandle.m; path = ThirdPayModule/Classes/GGWXApiRequestHandle.m; sourceTree = "<group>"; };
+		80C4A1B1F59708A850F3AC247315670B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		815BA27604055111FA4DDDA609D60D37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		91C19E50E3262453FA37DA12DA9691E6 /* WXApiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiManager.h; path = ThirdPayModule/Classes/WXApiManager.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9596BAE1F2E0DCB5A93BF76BC3731A50 /* Pods-ThirdPayModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThirdPayModule_Tests-dummy.m"; sourceTree = "<group>"; };
-		95F6887A6C558FE747E5759D6629B252 /* WXApiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiManager.h; path = ThirdPayModule/Classes/WXApiManager.h; sourceTree = "<group>"; };
+		A761C22717C067AC091DB252B11AC9CB /* WXApiManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXApiManager.m; path = ThirdPayModule/Classes/WXApiManager.m; sourceTree = "<group>"; };
 		AB19EB993C5FF2723A01A060C3591C9A /* Pods-ThirdPayModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThirdPayModule_Example-resources.sh"; sourceTree = "<group>"; };
 		BDC6E90789B6924CDF20F6BC0D874FF5 /* libThirdPayModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libThirdPayModule.a; path = libThirdPayModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC0CC5EAB85429D5BCFEED52972B3AC /* Pods-ThirdPayModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThirdPayModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C6D7007CE444941DED462D9FF378B9EE /* WXApiManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXApiManager.m; path = ThirdPayModule/Classes/WXApiManager.m; sourceTree = "<group>"; };
 		C731CE560B85CE0A3806C6BD12AAAFB1 /* libPods-ThirdPayModule_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ThirdPayModule_Tests.a"; path = "libPods-ThirdPayModule_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03CE7D78F7C5147DCB840244EE0C623 /* Pods-ThirdPayModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThirdPayModule_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D10ED32794A7281185CFABD9683C97EC /* Pods-ThirdPayModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThirdPayModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D14BBB5E9CB466A819E423CC9C69FC4D /* ThirdPayModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThirdPayModule.xcconfig; sourceTree = "<group>"; };
 		D98B3A599318C5453EC9838061B1042C /* Pods-ThirdPayModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThirdPayModule_Example-dummy.m"; sourceTree = "<group>"; };
 		DCE811ADA2D48ED30B83530B4FB88D33 /* Pods-ThirdPayModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThirdPayModule_Tests-resources.sh"; sourceTree = "<group>"; };
-		DF12CD7454D9EA37E2DE75527FB50B3D /* GGWXApiRequestHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGWXApiRequestHandle.h; path = ThirdPayModule/Classes/GGWXApiRequestHandle.h; sourceTree = "<group>"; };
+		E9C7FBDACABEB52E62DCFF2F6A439AC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F0CE3695FBE7312C4294BC15BE6D077F /* Pods-ThirdPayModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdPayModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FB7000897E223994D449E931DBE3D69F /* Pods-ThirdPayModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdPayModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FEAAD5633BEB38D4AFAC83013D266481 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WechatSDK1.8.2/libWeChatSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		08E0C67CBAD460A49EB9523576A71D44 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1F07AA5F4ADB6B95C3D1441C7E980C9D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,9 +83,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D88F10A64A336120CBC6D05B3B35BA3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0929D17AD2B1C01FD03F798D992FE719 /* MapKit.framework in Frameworks */,
+				1AB751D4A544047DCB820542AE8D236D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00A9931D48E426BC4234DC8C3571D9CB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC551D39625DA401ABB70C020110FE09 /* ThirdPayModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		0C463FA1C63D90D7823E073061A89DD3 /* Pods-ThirdPayModule_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,13 +116,6 @@
 			);
 			name = "Pods-ThirdPayModule_Tests";
 			path = "Target Support Files/Pods-ThirdPayModule_Tests";
-			sourceTree = "<group>";
-		};
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		12F15D6E69FDD5234A4F33588BC59CBF /* Targets Support Files */ = {
@@ -143,33 +142,12 @@
 			path = "Target Support Files/Pods-ThirdPayModule_Example";
 			sourceTree = "<group>";
 		};
-		3966A75801B63ED131E71DAC6F16C574 /* Development Pods */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9C111C9E43C3EEDE3655D8A69B01B764 /* ThirdPayModule */,
+				C21BC7B3237B4B17F7A106555B57F8BD /* iOS */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		398BE9380229F8478492C86AB8EE3D49 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				32777D3BDDCE21DBD5AB570CE1C5C089 /* LICENSE */,
-				6F62FF19F156E72F500F51430603D1D3 /* README.md */,
-				529F4032F8A4B4139994F2F9008997B2 /* ThirdPayModule.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		5DA44FD3B9917E77868C4C7731DE7AEE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				77EF4AC2913EA009BA3216DE1B429899 /* ThirdPayModule.xcconfig */,
-				19C551EB563F6D3D8EB9B36574BEFD6A /* ThirdPayModule-dummy.m */,
-				69935C45177D848F3DDED5505B1E7D4E /* ThirdPayModule-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ThirdPayModule";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7ADA45F435BB210C822629C0D9B54295 /* Pods */ = {
@@ -184,8 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3966A75801B63ED131E71DAC6F16C574 /* Development Pods */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				00A9931D48E426BC4234DC8C3571D9CB /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				7ADA45F435BB210C822629C0D9B54295 /* Pods */,
 				E2CC061BA1BB33DA4FE48D96E54D26E7 /* Products */,
 				12F15D6E69FDD5234A4F33588BC59CBF /* Targets Support Files */,
@@ -204,17 +182,33 @@
 			path = WechatOpenSDK;
 			sourceTree = "<group>";
 		};
-		9C111C9E43C3EEDE3655D8A69B01B764 /* ThirdPayModule */ = {
+		ACED7551A01E67DB190550BBC9B7D7FA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DF12CD7454D9EA37E2DE75527FB50B3D /* GGWXApiRequestHandle.h */,
-				7D1F5547A108836EBDEB7DEB80B6327E /* GGWXApiRequestHandle.m */,
-				5BD98CE2DD227917A987C38702A2CE05 /* GGWXApiResponseHandle.h */,
-				6048195A1369026E4F3E7CCCA17DBE08 /* GGWXApiResponseHandle.m */,
-				95F6887A6C558FE747E5759D6629B252 /* WXApiManager.h */,
-				C6D7007CE444941DED462D9FF378B9EE /* WXApiManager.m */,
-				398BE9380229F8478492C86AB8EE3D49 /* Pod */,
-				5DA44FD3B9917E77868C4C7731DE7AEE /* Support Files */,
+				D14BBB5E9CB466A819E423CC9C69FC4D /* ThirdPayModule.xcconfig */,
+				2533158A3F5F2AD9416772FDAC0D1D46 /* ThirdPayModule-dummy.m */,
+				00EDE8747A3BE68673B60253AAD490E9 /* ThirdPayModule-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ThirdPayModule";
+			sourceTree = "<group>";
+		};
+		C21BC7B3237B4B17F7A106555B57F8BD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3560F4E30F9D1A5550CBA42DEB2E6FA2 /* MapKit.framework */,
+				80C4A1B1F59708A850F3AC247315670B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC551D39625DA401ABB70C020110FE09 /* ThirdPayModule */ = {
+			isa = PBXGroup;
+			children = (
+				91C19E50E3262453FA37DA12DA9691E6 /* WXApiManager.h */,
+				A761C22717C067AC091DB252B11AC9CB /* WXApiManager.m */,
+				FCA0D334A654B512EDCD0DB78609C783 /* Pod */,
+				ACED7551A01E67DB190550BBC9B7D7FA /* Support Files */,
 			);
 			name = ThirdPayModule;
 			path = ../..;
@@ -238,16 +232,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FCA0D334A654B512EDCD0DB78609C783 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E9C7FBDACABEB52E62DCFF2F6A439AC7 /* LICENSE */,
+				815BA27604055111FA4DDDA609D60D37 /* README.md */,
+				404144B38DF109A1623916A6B97297D5 /* ThirdPayModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4E3131E75731D832D129EA5901CAF7A1 /* Headers */ = {
+		955AFC2E905062DB6E1650DFC42AA441 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53CC647C5578B71E5AD41FC96A49818C /* GGWXApiRequestHandle.h in Headers */,
-				00CABD49E7A42F5CAD5C2AAED8ECEF54 /* GGWXApiResponseHandle.h in Headers */,
-				B4F4D6899DACEE6E4F15BC91CCBF920C /* WXApiManager.h in Headers */,
+				3F01900B8CAB7CB4C7A96016E439AFE1 /* WXApiManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +260,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 813F46381D5DD1253E88DA9F9EB8DE91 /* Build configuration list for PBXNativeTarget "ThirdPayModule" */;
 			buildPhases = (
-				BB42321267DAE358B8D29DE9ED797408 /* Sources */,
-				08E0C67CBAD460A49EB9523576A71D44 /* Frameworks */,
-				4E3131E75731D832D129EA5901CAF7A1 /* Headers */,
+				C39E58EBCB1E46DCA10CC20E8F223148 /* Sources */,
+				D88F10A64A336120CBC6D05B3B35BA3C /* Frameworks */,
+				955AFC2E905062DB6E1650DFC42AA441 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -350,14 +352,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB42321267DAE358B8D29DE9ED797408 /* Sources */ = {
+		C39E58EBCB1E46DCA10CC20E8F223148 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A0510B286670A0C535AAF3AC575A087 /* GGWXApiRequestHandle.m in Sources */,
-				63FE7F2DFBE527C74FD871EBF132699C /* GGWXApiResponseHandle.m in Sources */,
-				8822ED921795DE3B1D28480CFD013464 /* ThirdPayModule-dummy.m in Sources */,
-				2617BC671FA24EF8FD45B9D6F398FDAB /* WXApiManager.m in Sources */,
+				4D2BDAD2E8B1AD9F5FE588D45E39E712 /* ThirdPayModule-dummy.m in Sources */,
+				26F4570E5C68FE798BAAD2A21B784470 /* WXApiManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +381,7 @@
 /* Begin XCBuildConfiguration section */
 		0B2635B5881A8D87CB5D8EE126DD75FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77EF4AC2913EA009BA3216DE1B429899 /* ThirdPayModule.xcconfig */;
+			baseConfigurationReference = D14BBB5E9CB466A819E423CC9C69FC4D /* ThirdPayModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -489,7 +489,7 @@
 		};
 		AB59175CA18C30875A74499AC44B0A89 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77EF4AC2913EA009BA3216DE1B429899 /* ThirdPayModule.xcconfig */;
+			baseConfigurationReference = D14BBB5E9CB466A819E423CC9C69FC4D /* ThirdPayModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

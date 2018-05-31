@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "ThirdPayModule.",
   "description": "ThirdPayModule详情",
-  "homepage": "https://github.com/nqwl/ThirdPayModule",
+  "homepage": "https://gitee.com/nqwl_chenhui",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +12,17 @@
     "nqwl": "1273087648@qq.com"
   },
   "source": {
-    "git": "https://github.com/nqwl/ThirdPayModule.git",
+    "git": "https://gitee.com/nqwl_chenhui/ThirdPayModule.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "ThirdPayModule/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
   "dependencies": {
     "WechatOpenSDK": [
 

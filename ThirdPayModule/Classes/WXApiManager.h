@@ -22,4 +22,7 @@
 
 + (instancetype)sharedManager;
 
+//app端需要微信支付的时候调用
+- (void)callWXPayWithOpenID:(NSString *)openId partnerId:(NSString *)partnerId prepayId:(NSString *)prepayId nonceStr:(NSString *)nonceStr type:(int)type;
+
 @end
