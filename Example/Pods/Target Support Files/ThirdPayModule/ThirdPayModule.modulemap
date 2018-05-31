@@ -1,0 +1,6 @@
+framework module ThirdPayModule {
+  umbrella header "ThirdPayModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11F0447F7A4692A71BE86E02 /* libPods-ThirdPayModule_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F34502E564F50A30A9ECEE3 /* libPods-ThirdPayModule_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,10 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6E3AD747E5537A4256A4AD88 /* Pods_ThirdPayModule_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2EB20C0C16E25DBC9BD4DF /* Pods_ThirdPayModule_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A4FF66898052F849A49A35A4 /* Pods_ThirdPayModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C9D62951CA618EF5923CD4 /* Pods_ThirdPayModule_Tests.framework */; };
+		D9BBDACAC34872458B1F92B8 /* libPods-ThirdPayModule_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 201461D09176CFF5EB7B8AC4 /* libPods-ThirdPayModule_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E2EB20C0C16E25DBC9BD4DF /* Pods_ThirdPayModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThirdPayModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DBA07FBE3C6BF3D7FDE7505 /* Pods-ThirdPayModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdPayModule_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdPayModule_Tests/Pods-ThirdPayModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2F81A5F6AAB18DD18BFFE57C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		201461D09176CFF5EB7B8AC4 /* libPods-ThirdPayModule_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThirdPayModule_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F34502E564F50A30A9ECEE3 /* libPods-ThirdPayModule_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThirdPayModule_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F81A5F6AAB18DD18BFFE57C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5059984AE64C4FFD63601307 /* Pods-ThirdPayModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdPayModule_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdPayModule_Example/Pods-ThirdPayModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ThirdPayModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdPayModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +65,8 @@
 		708C57CFBEB8824B3721AD45 /* Pods-ThirdPayModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdPayModule_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdPayModule_Tests/Pods-ThirdPayModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B14F1C6B674A9F5B480CC876 /* ThirdPayModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ThirdPayModule.podspec; path = ../ThirdPayModule.podspec; sourceTree = "<group>"; };
-		CC3AAA2193729C58B683B219 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E8C9D62951CA618EF5923CD4 /* Pods_ThirdPayModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThirdPayModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14F1C6B674A9F5B480CC876 /* ThirdPayModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ThirdPayModule.podspec; path = ../ThirdPayModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC3AAA2193729C58B683B219 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				6E3AD747E5537A4256A4AD88 /* Pods_ThirdPayModule_Example.framework in Frameworks */,
+				D9BBDACAC34872458B1F92B8 /* libPods-ThirdPayModule_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				A4FF66898052F849A49A35A4 /* Pods_ThirdPayModule_Tests.framework in Frameworks */,
+				11F0447F7A4692A71BE86E02 /* libPods-ThirdPayModule_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0E2EB20C0C16E25DBC9BD4DF /* Pods_ThirdPayModule_Example.framework */,
-				E8C9D62951CA618EF5923CD4 /* Pods_ThirdPayModule_Tests.framework */,
+				201461D09176CFF5EB7B8AC4 /* libPods-ThirdPayModule_Example.a */,
+				2F34502E564F50A30A9ECEE3 /* libPods-ThirdPayModule_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8D6AF89B6217EC5135432836 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = nqwl;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = GMRXFU548C;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -310,24 +312,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8D6AF89B6217EC5135432836 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ThirdPayModule_Example/Pods-ThirdPayModule_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ThirdPayModule/ThirdPayModule.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ThirdPayModule.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThirdPayModule_Example/Pods-ThirdPayModule_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D1E8EE55E54B8573A24DED5D /* [CP] Check Pods Manifest.lock */ = {
@@ -485,11 +469,12 @@
 			baseConfigurationReference = 67347C30C57D09979DD247F9 /* Pods-ThirdPayModule_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GMRXFU548C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThirdPayModule/ThirdPayModule-Prefix.pch";
 				INFOPLIST_FILE = "ThirdPayModule/ThirdPayModule-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51qindian.app.consumer.pro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -500,11 +485,12 @@
 			baseConfigurationReference = 5059984AE64C4FFD63601307 /* Pods-ThirdPayModule_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GMRXFU548C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThirdPayModule/ThirdPayModule-Prefix.pch";
 				INFOPLIST_FILE = "ThirdPayModule/ThirdPayModule-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51qindian.app.consumer.pro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

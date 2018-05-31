@@ -1,0 +1,1 @@
+../../../../../ThirdPayModule/Classes/WXApiManager.h

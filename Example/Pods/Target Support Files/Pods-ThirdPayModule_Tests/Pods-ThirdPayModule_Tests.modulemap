@@ -1,0 +1,6 @@
+framework module Pods_ThirdPayModule_Tests {
+  umbrella header "Pods-ThirdPayModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
