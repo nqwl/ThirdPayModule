@@ -133,8 +133,5 @@
 - (void)onReq:(BaseReq *)req {
 
 }
-#pragma mark - App端调用支付宝支付
-
-
 
 @end

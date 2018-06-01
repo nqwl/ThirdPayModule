@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B45237159C70574016C483B00EC6562 /* WXApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7E098F8077605860BADF72E69C5589 /* WXApiManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		11181505AE6EB0EEDF40FFD3FDC5E5C2 /* AlipaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 54FBF8CFC587964EF501BE6480B52EE2 /* AlipaySDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		206137F6D5AB4C9FA129AF406EBD0AF9 /* ThirdPayModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CEBCD81B031D5DF223FC89ADAF840 /* ThirdPayModule-dummy.m */; };
 		24BCF3780A7259FBDF9C158A35D87B55 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF87B6C5539807DF6F63726BAF1872B /* CoreTelephony.framework */; };
-		4D2BDAD2E8B1AD9F5FE588D45E39E712 /* ThirdPayModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD7341942EE76A24E143F38F6713A78 /* ThirdPayModule-dummy.m */; };
-		5450F119B77C51939785DCEE8132F8E4 /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AF2047D32409A0DF0ED6E6443D368 /* WXApiManager.m */; };
+		3CF9859814D0E56649CD72A3A7D668D1 /* AliPayApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2100D16B99ACE4134D86249E6FC4C /* AliPayApiManager.m */; };
 		57A71C6FD4FC9C9AFFD54F4588BF59BA /* Pods-ThirdPayModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9596BAE1F2E0DCB5A93BF76BC3731A50 /* Pods-ThirdPayModule_Tests-dummy.m */; };
-		7043B4487F5251A3DDFC8C6CA67DFDE9 /* APayAuthInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 48434FE374941DC7E24FBA1DAAACFA14 /* APayAuthInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68944E23815958D75A42B12D55000D3C /* AliPayApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 54203DBC54A974A0F4F71F2A09BE3856 /* AliPayApiManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		80740B2EEE882D07211FF61DDE10E96F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C6FEE1E94A4C9FF51A1FF845EFA0A4 /* CoreMotion.framework */; };
+		87F49DDF401539F46A1B9F8041AD0EE7 /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7596B4A1A8CD93FF98EF787095E7E21 /* WXApiManager.m */; };
+		95D7E48492F709BEF36D1DBBFDEA9E72 /* WXApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AFDFB58B28017F0E22071B1069A4C3 /* WXApiManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		963170A1FB939CF56249231013034BD5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460B218964F5CBD42CC5F1FFD531DFF0 /* MapKit.framework */; };
 		C54A9B814BB4114701033346D7D8D301 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC8A3220641B17FFC51BAE8124D003B /* SystemConfiguration.framework */; };
-		D401A62A361F3C4B74D860C7EC96C725 /* AlipaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C0521FFBB3BC223D9609A8BEF48F1F26 /* AlipaySDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D86B635A4AC9E14865E9C16F29AA60A9 /* APayAuthInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 60656812BB24EC5527E9C666BA1FF8E1 /* APayAuthInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DEAE638C076E1A26052AEA300457A3E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC93C99B62FCBE8660A6DD3D4FCAA33C /* UIKit.framework */; };
 		EEEC89F5796757F86F89C47F7E95516F /* Pods-ThirdPayModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B3A599318C5453EC9838061B1042C /* Pods-ThirdPayModule_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -39,44 +41,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DF3FD9C925E64E61BD02A228F1ECCBD /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = ThirdPayModule/Classes/AliPay/AlipaySDK.framework; sourceTree = "<group>"; };
 		150621E7A5E18287E98916E5EE09CF61 /* Pods-ThirdPayModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdPayModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		19C6FEE1E94A4C9FF51A1FF845EFA0A4 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		1C573A52D73B61573FB2AC2A379F0C7C /* ThirdPayModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThirdPayModule.xcconfig; sourceTree = "<group>"; };
 		2020C87D797F5606E0994E3B91DA4706 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WechatSDK1.8.2/WechatAuthSDK.h; sourceTree = "<group>"; };
 		2695084A4EFED769123C17412FAA054C /* Pods-ThirdPayModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdPayModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B1735A22454BF458F22BA3270D74AD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2DC58C37D504364155203E275243594D /* ThirdPayModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThirdPayModule.xcconfig; sourceTree = "<group>"; };
 		36E983344BC48AA24F24B325E48C16FA /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WechatSDK1.8.2/WXApiObject.h; sourceTree = "<group>"; };
 		3F5317CE6C340092F16F71691B7C6FB0 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WechatSDK1.8.2/WXApi.h; sourceTree = "<group>"; };
+		43879FF75D7A4BEF4736E64AB46C9D1D /* ThirdPayModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThirdPayModule-prefix.pch"; sourceTree = "<group>"; };
 		460B218964F5CBD42CC5F1FFD531DFF0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		48434FE374941DC7E24FBA1DAAACFA14 /* APayAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APayAuthInfo.h; path = ThirdPayModule/Classes/AliPay/AlipaySDK.framework/Headers/APayAuthInfo.h; sourceTree = "<group>"; };
 		4CF87B6C5539807DF6F63726BAF1872B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		51FC9EC03AA683F49D6547C871518683 /* Pods-ThirdPayModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThirdPayModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5328FF64CC8983A0FC0B382C90390D5E /* libPods-ThirdPayModule_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ThirdPayModule_Example.a"; path = "libPods-ThirdPayModule_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		580AF2047D32409A0DF0ED6E6443D368 /* WXApiManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXApiManager.m; path = ThirdPayModule/Classes/WXPay/WXApiManager.m; sourceTree = "<group>"; };
+		54203DBC54A974A0F4F71F2A09BE3856 /* AliPayApiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AliPayApiManager.h; path = ThirdPayModule/Classes/AliPay/AliPayApiManager.h; sourceTree = "<group>"; };
+		54FBF8CFC587964EF501BE6480B52EE2 /* AlipaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlipaySDK.h; sourceTree = "<group>"; };
 		591D76EADFF9687DFE20EE80C7A28E97 /* Pods-ThirdPayModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThirdPayModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		5C5557B2D32F3DAF26830E6982BEEF80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		60656812BB24EC5527E9C666BA1FF8E1 /* APayAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APayAuthInfo.h; sourceTree = "<group>"; };
 		6157AB26557A35D7971A081D380FBC61 /* Pods-ThirdPayModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThirdPayModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		79C60C5C8517EDAD31ADDB89B97A5C36 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = ThirdPayModule/Assets/AlipaySDK.bundle; sourceTree = "<group>"; };
-		7C3CD7444CD89284BF5C075B4C25E37A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		8DD7341942EE76A24E143F38F6713A78 /* ThirdPayModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThirdPayModule-dummy.m"; sourceTree = "<group>"; };
+		6309FCF5FD2181B43B4E5B0B9E3FEA16 /* ThirdPayModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ThirdPayModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92B643623AF5AA84210025BD845A5D3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94D882ED4681CCEFF11B68A504B44628 /* ThirdPayModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ThirdPayModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9596BAE1F2E0DCB5A93BF76BC3731A50 /* Pods-ThirdPayModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThirdPayModule_Tests-dummy.m"; sourceTree = "<group>"; };
-		A23ECBF538A886A541D11FAFA9574FD8 /* ThirdPayModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThirdPayModule-prefix.pch"; sourceTree = "<group>"; };
 		AB19EB993C5FF2723A01A060C3591C9A /* Pods-ThirdPayModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThirdPayModule_Example-resources.sh"; sourceTree = "<group>"; };
+		B9D73BAB953038EF3C53FE2488E7441E /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = ThirdPayModule/Classes/AliPay/AlipaySDK.framework; sourceTree = "<group>"; };
 		BC93C99B62FCBE8660A6DD3D4FCAA33C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BDC6E90789B6924CDF20F6BC0D874FF5 /* libThirdPayModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libThirdPayModule.a; path = libThirdPayModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC0CC5EAB85429D5BCFEED52972B3AC /* Pods-ThirdPayModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThirdPayModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C0521FFBB3BC223D9609A8BEF48F1F26 /* AlipaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlipaySDK.h; path = ThirdPayModule/Classes/AliPay/AlipaySDK.framework/Headers/AlipaySDK.h; sourceTree = "<group>"; };
+		C42029886DB59D8426D120959D71009B /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = ThirdPayModule/Assets/AlipaySDK.bundle; sourceTree = "<group>"; };
 		C731CE560B85CE0A3806C6BD12AAAFB1 /* libPods-ThirdPayModule_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ThirdPayModule_Tests.a"; path = "libPods-ThirdPayModule_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC7E098F8077605860BADF72E69C5589 /* WXApiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiManager.h; path = ThirdPayModule/Classes/WXPay/WXApiManager.h; sourceTree = "<group>"; };
+		C7596B4A1A8CD93FF98EF787095E7E21 /* WXApiManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXApiManager.m; path = ThirdPayModule/Classes/WXPay/WXApiManager.m; sourceTree = "<group>"; };
 		D03CE7D78F7C5147DCB840244EE0C623 /* Pods-ThirdPayModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThirdPayModule_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D10ED32794A7281185CFABD9683C97EC /* Pods-ThirdPayModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThirdPayModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D98B3A599318C5453EC9838061B1042C /* Pods-ThirdPayModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThirdPayModule_Example-dummy.m"; sourceTree = "<group>"; };
+		D9D2100D16B99ACE4134D86249E6FC4C /* AliPayApiManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AliPayApiManager.m; path = ThirdPayModule/Classes/AliPay/AliPayApiManager.m; sourceTree = "<group>"; };
 		DCE811ADA2D48ED30B83530B4FB88D33 /* Pods-ThirdPayModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThirdPayModule_Tests-resources.sh"; sourceTree = "<group>"; };
 		DFC8A3220641B17FFC51BAE8124D003B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		F0CE3695FBE7312C4294BC15BE6D077F /* Pods-ThirdPayModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdPayModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F6AFDFB58B28017F0E22071B1069A4C3 /* WXApiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiManager.h; path = ThirdPayModule/Classes/WXPay/WXApiManager.h; sourceTree = "<group>"; };
 		FB7000897E223994D449E931DBE3D69F /* Pods-ThirdPayModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdPayModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FC0CEBCD81B031D5DF223FC89ADAF840 /* ThirdPayModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThirdPayModule-dummy.m"; sourceTree = "<group>"; };
 		FEAAD5633BEB38D4AFAC83013D266481 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WechatSDK1.8.2/libWeChatSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,9 +117,33 @@
 		00A9931D48E426BC4234DC8C3571D9CB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				38512EF160ECAFE56369749F61FCBA97 /* ThirdPayModule */,
+				0ADA398C884F803D6860D5347D86F95C /* ThirdPayModule */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		04362CF0F02E0A9C38C5A8581F759FC1 /* AliPay */ = {
+			isa = PBXGroup;
+			children = (
+				54203DBC54A974A0F4F71F2A09BE3856 /* AliPayApiManager.h */,
+				D9D2100D16B99ACE4134D86249E6FC4C /* AliPayApiManager.m */,
+				E5A20DBD2937C18E82E77C3A689F406D /* AlipaySDK.framework */,
+				2680CE7F51A08B0E380ACFF0014CCBEB /* Frameworks */,
+				9847B469809FE506A57B0874AC090E88 /* Resources */,
+			);
+			name = AliPay;
+			sourceTree = "<group>";
+		};
+		0ADA398C884F803D6860D5347D86F95C /* ThirdPayModule */ = {
+			isa = PBXGroup;
+			children = (
+				04362CF0F02E0A9C38C5A8581F759FC1 /* AliPay */,
+				A1B73B06F399F0A6CFD7FB5E2B4A3560 /* Pod */,
+				13CDEF32010F9B61EAF6FD23C35FA654 /* Support Files */,
+				1A248ECC91ABD3E9CF02212F1F3454B2 /* WXPay */,
+			);
+			name = ThirdPayModule;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		0C463FA1C63D90D7823E073061A89DD3 /* Pods-ThirdPayModule_Tests */ = {
@@ -142,6 +170,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		13CDEF32010F9B61EAF6FD23C35FA654 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DC58C37D504364155203E275243594D /* ThirdPayModule.xcconfig */,
+				FC0CEBCD81B031D5DF223FC89ADAF840 /* ThirdPayModule-dummy.m */,
+				43879FF75D7A4BEF4736E64AB46C9D1D /* ThirdPayModule-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ThirdPayModule";
+			sourceTree = "<group>";
+		};
+		1A248ECC91ABD3E9CF02212F1F3454B2 /* WXPay */ = {
+			isa = PBXGroup;
+			children = (
+				F6AFDFB58B28017F0E22071B1069A4C3 /* WXApiManager.h */,
+				C7596B4A1A8CD93FF98EF787095E7E21 /* WXApiManager.m */,
+			);
+			name = WXPay;
+			sourceTree = "<group>";
+		};
 		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,65 +213,12 @@
 			path = "Target Support Files/Pods-ThirdPayModule_Example";
 			sourceTree = "<group>";
 		};
-		2C34A1CB2623086D4F01551F01AF7742 /* Resources */ = {
+		2680CE7F51A08B0E380ACFF0014CCBEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				79C60C5C8517EDAD31ADDB89B97A5C36 /* AlipaySDK.bundle */,
+				B9D73BAB953038EF3C53FE2488E7441E /* AlipaySDK.framework */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		2EC516848BF06C50E1597C7B983B0F6A /* WXPay */ = {
-			isa = PBXGroup;
-			children = (
-				CC7E098F8077605860BADF72E69C5589 /* WXApiManager.h */,
-				580AF2047D32409A0DF0ED6E6443D368 /* WXApiManager.m */,
-			);
-			name = WXPay;
-			sourceTree = "<group>";
-		};
-		38512EF160ECAFE56369749F61FCBA97 /* ThirdPayModule */ = {
-			isa = PBXGroup;
-			children = (
-				4AE66852844D7F6601E37A68554D8F94 /* AliPay */,
-				7A44122DC7EBAD98C1546D1E5EA81046 /* Pod */,
-				40DED95019527917A54A9C1455184E45 /* Support Files */,
-				2EC516848BF06C50E1597C7B983B0F6A /* WXPay */,
-			);
-			name = ThirdPayModule;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		40DED95019527917A54A9C1455184E45 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1C573A52D73B61573FB2AC2A379F0C7C /* ThirdPayModule.xcconfig */,
-				8DD7341942EE76A24E143F38F6713A78 /* ThirdPayModule-dummy.m */,
-				A23ECBF538A886A541D11FAFA9574FD8 /* ThirdPayModule-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ThirdPayModule";
-			sourceTree = "<group>";
-		};
-		4AE66852844D7F6601E37A68554D8F94 /* AliPay */ = {
-			isa = PBXGroup;
-			children = (
-				C0521FFBB3BC223D9609A8BEF48F1F26 /* AlipaySDK.h */,
-				48434FE374941DC7E24FBA1DAAACFA14 /* APayAuthInfo.h */,
-				86480FD0B66B7CE07901242D637F48BD /* Frameworks */,
-				2C34A1CB2623086D4F01551F01AF7742 /* Resources */,
-			);
-			name = AliPay;
-			sourceTree = "<group>";
-		};
-		7A44122DC7EBAD98C1546D1E5EA81046 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7C3CD7444CD89284BF5C075B4C25E37A /* LICENSE */,
-				5C5557B2D32F3DAF26830E6982BEEF80 /* README.md */,
-				94D882ED4681CCEFF11B68A504B44628 /* ThirdPayModule.podspec */,
-			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7ADA45F435BB210C822629C0D9B54295 /* Pods */ = {
@@ -258,12 +253,32 @@
 			path = WechatOpenSDK;
 			sourceTree = "<group>";
 		};
-		86480FD0B66B7CE07901242D637F48BD /* Frameworks */ = {
+		9847B469809FE506A57B0874AC090E88 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0DF3FD9C925E64E61BD02A228F1ECCBD /* AlipaySDK.framework */,
+				C42029886DB59D8426D120959D71009B /* AlipaySDK.bundle */,
 			);
-			name = Frameworks;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A1B73B06F399F0A6CFD7FB5E2B4A3560 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				92B643623AF5AA84210025BD845A5D3C /* LICENSE */,
+				2B1735A22454BF458F22BA3270D74AD1 /* README.md */,
+				6309FCF5FD2181B43B4E5B0B9E3FEA16 /* ThirdPayModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A2928F19130378C16ED697DF51E286CD /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				54FBF8CFC587964EF501BE6480B52EE2 /* AlipaySDK.h */,
+				60656812BB24EC5527E9C666BA1FF8E1 /* APayAuthInfo.h */,
+			);
+			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		E2CC061BA1BB33DA4FE48D96E54D26E7 /* Products */ = {
@@ -274,6 +289,15 @@
 				BDC6E90789B6924CDF20F6BC0D874FF5 /* libThirdPayModule.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E5A20DBD2937C18E82E77C3A689F406D /* AlipaySDK.framework */ = {
+			isa = PBXGroup;
+			children = (
+				A2928F19130378C16ED697DF51E286CD /* Headers */,
+			);
+			name = AlipaySDK.framework;
+			path = ThirdPayModule/Classes/AliPay/AlipaySDK.framework;
 			sourceTree = "<group>";
 		};
 		F106753DE78C194A41A6A46073EB0665 /* iOS */ = {
@@ -299,13 +323,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		641960C093FA9EDF687697971BD0A4E7 /* Headers */ = {
+		E63AEF5717342262F8E741FB0B7FD039 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D401A62A361F3C4B74D860C7EC96C725 /* AlipaySDK.h in Headers */,
-				7043B4487F5251A3DDFC8C6CA67DFDE9 /* APayAuthInfo.h in Headers */,
-				0B45237159C70574016C483B00EC6562 /* WXApiManager.h in Headers */,
+				68944E23815958D75A42B12D55000D3C /* AliPayApiManager.h in Headers */,
+				11181505AE6EB0EEDF40FFD3FDC5E5C2 /* AlipaySDK.h in Headers */,
+				D86B635A4AC9E14865E9C16F29AA60A9 /* APayAuthInfo.h in Headers */,
+				95D7E48492F709BEF36D1DBBFDEA9E72 /* WXApiManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,9 +341,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 813F46381D5DD1253E88DA9F9EB8DE91 /* Build configuration list for PBXNativeTarget "ThirdPayModule" */;
 			buildPhases = (
-				C39E58EBCB1E46DCA10CC20E8F223148 /* Sources */,
+				C8FC2D721E76BD9BEF2339742BFD05C2 /* Sources */,
 				F958ABC877BD9E12C32D2E7AD8B4DAFA /* Frameworks */,
-				641960C093FA9EDF687697971BD0A4E7 /* Headers */,
+				E63AEF5717342262F8E741FB0B7FD039 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -408,12 +433,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C39E58EBCB1E46DCA10CC20E8F223148 /* Sources */ = {
+		C8FC2D721E76BD9BEF2339742BFD05C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2BDAD2E8B1AD9F5FE588D45E39E712 /* ThirdPayModule-dummy.m in Sources */,
-				5450F119B77C51939785DCEE8132F8E4 /* WXApiManager.m in Sources */,
+				3CF9859814D0E56649CD72A3A7D668D1 /* AliPayApiManager.m in Sources */,
+				206137F6D5AB4C9FA129AF406EBD0AF9 /* ThirdPayModule-dummy.m in Sources */,
+				87F49DDF401539F46A1B9F8041AD0EE7 /* WXApiManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +463,7 @@
 /* Begin XCBuildConfiguration section */
 		0B2635B5881A8D87CB5D8EE126DD75FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C573A52D73B61573FB2AC2A379F0C7C /* ThirdPayModule.xcconfig */;
+			baseConfigurationReference = 2DC58C37D504364155203E275243594D /* ThirdPayModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -567,7 +593,7 @@
 		};
 		AB59175CA18C30875A74499AC44B0A89 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C573A52D73B61573FB2AC2A379F0C7C /* ThirdPayModule.xcconfig */;
+			baseConfigurationReference = 2DC58C37D504364155203E275243594D /* ThirdPayModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

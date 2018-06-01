@@ -1,9 +1,9 @@
 {
   "name": "ThirdPayModule",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "ThirdPayModule.",
-  "description": "ThirdPayModule详情",
-  "homepage": "https://gitee.com/nqwl_chenhui",
+  "description": "ThirdPayModule:通过Cocoapods集成支付宝支付和微信支付，让你的开发更加迅捷",
+  "homepage": "https://github.com/nqwl",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "nqwl": "1273087648@qq.com"
   },
   "source": {
-    "git": "https://gitee.com/nqwl_chenhui/ThirdPayModule.git",
-    "tag": "0.2.0"
+    "git": "https://github.com/nqwl/ThirdPayModule.git",
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
