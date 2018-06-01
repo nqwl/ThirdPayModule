@@ -1,6 +1,6 @@
 {
   "name": "ThirdPayModule",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "ThirdPayModule.",
   "description": "ThirdPayModule详情",
   "homepage": "https://gitee.com/nqwl_chenhui",
@@ -13,19 +13,41 @@
   },
   "source": {
     "git": "https://gitee.com/nqwl_chenhui/ThirdPayModule.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ThirdPayModule/Classes/**/*",
   "frameworks": [
     "UIKit",
     "MapKit"
   ],
-  "dependencies": {
-    "WechatOpenSDK": [
+  "subspecs": [
+    {
+      "name": "AliPay",
+      "frameworks": [
+        "CoreTelephony",
+        "SystemConfiguration",
+        "CoreMotion"
+      ],
+      "libraries": [
+        "z",
+        "c++"
+      ],
+      "source_files": "ThirdPayModule/Classes/AliPay/**/*.{h,m}",
+      "resources": "ThirdPayModule/Assets/AlipaySDK.bundle",
+      "vendored_frameworks": [
+        "ThirdPayModule/Classes/AliPay/*.framework"
+      ]
+    },
+    {
+      "name": "WXPay",
+      "source_files": "ThirdPayModule/Classes/WXPay/*.{h,m}",
+      "dependencies": {
+        "WechatOpenSDK": [
 
-    ]
-  }
+        ]
+      }
+    }
+  ]
 }

@@ -1,1 +1,1 @@
-../../../../../ThirdPayModule/Classes/WXApiManager.h
+../../../../../ThirdPayModule/Classes/WXPay/WXApiManager.h

@@ -1,5 +1,9 @@
 PODS:
-  - ThirdPayModule (0.1.0):
+  - ThirdPayModule (0.2.0):
+    - ThirdPayModule/AliPay (= 0.2.0)
+    - ThirdPayModule/WXPay (= 0.2.0)
+  - ThirdPayModule/AliPay (0.2.0)
+  - ThirdPayModule/WXPay (0.2.0):
     - WechatOpenSDK
   - WechatOpenSDK (1.8.2)
 
@@ -15,9 +19,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ThirdPayModule: 06aa2d8a8f2c24f0b6c8a0bd76dfccc8e45e8c88
+  ThirdPayModule: 23bf62382849fa0731b3b4b8af86074fddfaaa41
   WechatOpenSDK: 676feec516a11173eafd1fe64b10d27babf28701
 
-PODFILE CHECKSUM: f4a78d76d2ce5f0971e51377c0cb5fdfc5b5d2ab
+PODFILE CHECKSUM: a78f89a0a7045d7bb17f574aa1c6fcfe3efd587e
 
 COCOAPODS: 1.5.3

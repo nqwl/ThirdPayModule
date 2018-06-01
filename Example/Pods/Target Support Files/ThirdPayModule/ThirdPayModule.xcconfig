@@ -1,8 +1,9 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/ThirdPayModule
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../ThirdPayModule/Classes/AliPay"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/ThirdPayModule" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ThirdPayModule" "${PODS_ROOT}/Headers/Public/WechatOpenSDK"
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/WechatOpenSDK/WechatSDK1.8.2"
-OTHER_LDFLAGS = -framework "MapKit" -framework "UIKit"
+OTHER_LDFLAGS = -l"c++" -l"z" -framework "AlipaySDK" -framework "CoreMotion" -framework "CoreTelephony" -framework "MapKit" -framework "SystemConfiguration" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

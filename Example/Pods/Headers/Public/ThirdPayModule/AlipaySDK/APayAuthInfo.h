@@ -1,0 +1,1 @@
+../../../../../../ThirdPayModule/Classes/AliPay/AlipaySDK.framework/Headers/APayAuthInfo.h

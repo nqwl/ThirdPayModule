@@ -32,9 +32,20 @@
 				<string>wxf61e999af9c60317</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>QinDianSheQu</string>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>alipay</string>
+		<string>alipayshare</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

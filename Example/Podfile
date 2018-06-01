@@ -4,7 +4,5 @@ target 'ThirdPayModule_Example' do
   pod 'ThirdPayModule', :path => '../'
   target 'ThirdPayModule_Tests' do
     inherit! :search_paths
-
-    
   end
 end
